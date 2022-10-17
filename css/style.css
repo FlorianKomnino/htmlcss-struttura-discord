@@ -72,13 +72,13 @@ div.title-container {
     /* border: 0.2rem dotted black; */
 }
 
-nav ul {
+nav>ul {
     display: flex;
     justify-content: space-evenly;
     color: white;
 }
 
-nav li {
+nav>ul>li {
     list-style-type: none;
 }
 
@@ -218,13 +218,13 @@ section.vertical-section article {
 
 body>footer {
     padding-top: 0.5rem;
-    height: 37rem;
+    height: 28rem;
     background-color: #23272a;
 }
 
 body>footer>nav {
     margin: 0 auto 2rem auto;
-    height: 29rem;
+    height: 20rem;
     width: 60rem;
     display: flex;
 }
@@ -233,7 +233,7 @@ body>footer>aside {
     margin: 1.5rem auto 0 auto;
     height: 3.8rem;
     width: 60rem;
-    background-color: #7fffd4;
+    /* background-color: #7fffd4; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -250,25 +250,71 @@ div.footer-logo {
 }
 
 aside>button {
-    width: 4.5rem;
-    height: 1.8rem;
-    border: 0.2rem dashed black;
+    /* border: 0.2rem dashed black; */
     padding: 0.3rem;
-    background-color: #ffb6c1;
+    background-color: #8ea1e1;
+    border-radius: 3rem;
+    padding: 0.6rem 0.6rem 0.6rem 0.6rem;
+    color: white;
 }
 
 .main-footer-section {
     width: 18rem;
     height: 100%;
-    background-color: #f08080;
-    border: 0.2rem dotted black;
+    /* background-color: #f08080; */
+    /* border: 0.2rem dotted black; */
+}
+
+.main-footer-section h1 {
+    font-size: 2rem;
+    color: #6b81cd
+}
+
+.main-footer-section>p>img {
+    vertical-align: bottom;
+    height: 1rem;
+}
+
+.main-footer-section select {
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-top: 2rem;
+}
+
+.main-footer-section p a img {
+    height: 2rem;
+    margin-top: 2rem;
 }
 
 .footer-section {
     width: 10.5rem;
     height: 100%;
-    background-color: #20b2aa;
-    border: 0.2rem dotted white;
+    /* background-color: #20b2aa; */
+    /* border: 0.2rem dotted white; */
+}
+
+.footer-section h1 {
+    color: #778fe5;
+    Font-size: 1rem;
+    margin: 0.5rem 0 0.5rem 1rem;
+}
+
+.footer-section li {
+    list-style-type: none;
+    color: white;
+    Font-size: 0.9rem;
+    margin: 0.5rem 0 0.5rem 1rem;
+}
+
+hr {
+    width: 60rem;
+    margin: 0 auto;
+    color: #4a5781;
+}
+
+footer>aside .logo {
+    transform: translateY(1rem);
 }
 
 
