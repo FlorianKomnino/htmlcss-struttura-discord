@@ -3,3 +3,61 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header {
+    height: 28rem;
+}
+
+nav {
+    display: inline-block;
+    height: 100%;
+    width: 60%;
+    border: 0.2rem dotted black;
+}
+
+div.header-first-part {
+    height: 4rem;
+    background-color: #add8e6;
+    padding: 1rem;
+}
+
+div.top-container {
+    width: 65%;
+    height: 2rem;
+    background-color: #daa520;
+    margin: 0 auto;
+    display: flex;
+}
+
+div.logo {
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+    border: 0.2rem dotted black;
+}
+
+div.login {
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+    border: 0.2rem dotted black;
+}
+
+div.header-second-part {
+    height: 24rem;
+    background-color: #00008b;
+    padding: 2.5rem 0;
+}
+
+div.title-container {
+    height: 100%;
+    width: 48%;
+    background-color: #ee82ee;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
