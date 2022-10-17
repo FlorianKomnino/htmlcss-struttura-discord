@@ -76,6 +76,14 @@ div.title-container {
     margin: 0 auto;
 }
 
+section.inverted-section {
+    height: 30rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    background-color: #d3d3d3;
+}
+
 .clearfix::after {
     content: "";
     display: table;
