@@ -8,25 +8,27 @@
 /* body>header selectors */
 
 header {
-    height: 28rem;
+    height: 35rem;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 div.header-first-part {
     height: 4rem;
-    background-color: #add8e6;
+    /* background-color: #add8e6; */
     padding: 1rem;
 }
 
 div.header-second-part {
     height: 24rem;
-    background-color: #00008b;
+    /* background-color: #00008b; */
     padding: 2.5rem 0;
 }
 
 div.top-container {
     width: 65%;
     height: 2rem;
-    background-color: #daa520;
+    /* background-color: #daa520; */
     margin: 0 auto;
     display: flex;
 }
@@ -48,8 +50,9 @@ div.login {
 div.title-container {
     height: 100%;
     width: 48%;
-    background-color: #ee82ee;
+    /* background-color: #ee82ee; */
     margin: 0 auto;
+    border: 0.2rem dotted black;
 }
 
 div.top-container nav {
@@ -72,7 +75,7 @@ section.horizontal-section {
 img.horizontal-sections-img {
     height: 25rem;
     width: 36rem;
-    background-color: #1e90ff;
+    /* background-color: #1e90ff; */
 }
 
 section.inverted-horizontal-section {
