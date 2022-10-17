@@ -15,20 +15,14 @@ nav {
     border: 0.2rem dotted black;
 }
 
-section {
-    height: 30rem;
-    padding: 3rem;
-    display: flex;
-    justify-content: center;
-}
-
-img {
+img.horizontal-section-img {
     height: 25rem;
     width: 36rem;
     background-color: #1e90ff;
 }
 
-article {
+section.horizontal-section article,
+section.inverted-horizontal-section article {
     display: inline-block;
     height: 25rem;
     width: 24rem;
@@ -76,12 +70,32 @@ div.title-container {
     margin: 0 auto;
 }
 
-section.inverted-section {
+section.horizontal-section {
+    height: 30rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+section.inverted-horizontal-section {
     height: 30rem;
     padding: 3rem;
     display: flex;
     justify-content: center;
     background-color: #d3d3d3;
+}
+
+section.vertical-section {
+    height: 50rem;
+    background-color: #d3d3d3;
+    padding: 2.5rem
+}
+
+section.vertical-section article {
+    height: 45rem;
+    width: 60rem;
+    margin: 0 auto;
+    background-color: #228b22;
 }
 
 .clearfix::after {
