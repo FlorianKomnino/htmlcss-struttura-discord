@@ -15,6 +15,22 @@ nav {
     border: 0.2rem dotted black;
 }
 
+section {
+    height: 30rem;
+}
+
+img {
+    height: 24rem;
+    width: 40rem;
+    background-color: #1e90ff;
+}
+article {
+    display: inline-block;
+    height: 24rem;
+    width: 20rem;
+    background-color: #ffc0cb;
+}
+
 div.header-first-part {
     height: 4rem;
     background-color: #add8e6;
