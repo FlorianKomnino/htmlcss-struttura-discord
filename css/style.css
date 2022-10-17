@@ -117,7 +117,7 @@ body>footer>nav {
     margin: 0 auto 2rem auto;
     height: 29rem;
     width: 60rem;
-    background-color: #f08080;
+    display: flex;
 }
 
 body>footer>aside {
@@ -125,6 +125,41 @@ body>footer>aside {
     height: 3.8rem;
     width: 60rem;
     background-color: #7fffd4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.footer-logo {
+    width: 3.5rem;
+    height: 1.8rem;
+    background-color: #ffb6c1;
+    color: black;
+    text-align: center;
+    border: 0.2rem dashed black;
+    padding: 0.15rem;
+}
+
+aside>button {
+    width: 4.5rem;
+    height: 1.8rem;
+    border: 0.2rem dashed black;
+    padding: 0.3rem;
+    background-color: #ffb6c1;
+}
+
+.main-footer-section {
+    width: 18rem;
+    height: 100%;
+    background-color: #f08080;
+    border: 0.2rem dotted black;
+}
+
+.footer-section {
+    width: 10.5rem;
+    height: 100%;
+    background-color: #20b2aa;
+    border: 0.2rem dotted white;
 }
 
 
