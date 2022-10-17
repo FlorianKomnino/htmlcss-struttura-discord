@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -37,14 +38,30 @@ div.logo {
     display: inline-block;
     height: 100%;
     width: 20%;
-    border: 0.2rem dotted black;
+    transform: translateY(-0.3rem);
+
+    /* border: 0.2rem dotted black; */
+}
+
+div.top-container nav {
+    display: inline-block;
+    height: 100%;
+    width: 60%;
+    /* border: 0.2rem dotted black; */
 }
 
 div.login {
-    display: inline-block;
     height: 100%;
     width: 20%;
-    border: 0.2rem dotted black;
+    /* border: 0.2rem dotted black; */
+    text-align: right;
+}
+
+div.login>button {
+    padding: 0.6rem 1rem;
+    border-radius: 2rem;
+    border: none;
+    transform: translateY(-0.3rem);
 }
 
 div.title-container {
@@ -52,14 +69,57 @@ div.title-container {
     width: 48%;
     /* background-color: #ee82ee; */
     margin: 0 auto;
-    border: 0.2rem dotted black;
+    /* border: 0.2rem dotted black; */
 }
 
-div.top-container nav {
-    display: inline-block;
-    height: 100%;
-    width: 60%;
-    border: 0.2rem dotted black;
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+div.title-container h1 {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+div.title-container p {
+    line-height: 1.7rem;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+button.mac-downloader {
+    font-size: 1.2rem;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    background-color: white;
+    border-radius: 2rem;
+    margin-right: 1.5rem;
+}
+
+button.open-in-browser {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.6rem;
+    border: none;
+    color: white;
+    border-radius: 2rem;
+    background-color: black;
+}
+
+
+.installer-links {
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: 800;
 }
 
 
