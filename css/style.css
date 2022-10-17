@@ -17,17 +17,21 @@ nav {
 
 section {
     height: 30rem;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
 }
 
 img {
-    height: 24rem;
-    width: 40rem;
+    height: 25rem;
+    width: 36rem;
     background-color: #1e90ff;
 }
+
 article {
     display: inline-block;
-    height: 24rem;
-    width: 20rem;
+    height: 25rem;
+    width: 24rem;
     background-color: #ffc0cb;
 }
 
